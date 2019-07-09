@@ -1,0 +1,68 @@
+
+body{
+    background-image: linear-gradient(to right top, #e52939, #ee4c53, #f6676c, #fb8085, #ff989d);
+    width: 100vw;
+    height: 100vh;
+}
+.credit-container{
+   width: 550px;
+   height: 350px;
+   background-image: linear-gradient(to right top, #2a21eb, #5e43f0, #8061f4, #9c7ff8, #b59cfb);
+   border-radius: 10px;
+   margin-left: 300px;
+
+
+}
+.credit-title{
+    color: white;
+    font-weight: bold;
+    font-size: 1.9em;
+    text-align: end;
+    margin-right: 75px;
+}
+.img-code{
+    width: 60px;
+    height: 60px;
+    margin-left: 35px;
+
+}
+.secret-code>span{
+    margin-left: 20px;
+ 
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #c0c580;
+}
+.secret-code{
+    margin-left: 40px;
+    background-image: linear-gradient(to right top, #a2f2b1, #b4f4af, #c6f7af, #d6f9b0, #e5fbb2);
+    width: 330px;
+}
+.main  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center
+}
+.display{
+    display: flex;
+     justify-content: space-between;
+     color: white;
+     font-weight: bolder;
+     font-size:1.3em;
+     padding: 10px;
+}
+.logo   {
+    width: 100px;
+   margin-right: 10px;;
+}
+.container{
+    display: flex;
+}
+
+input[type=text],input[type='number']{
+    width: 300px;
+    padding: 20px;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
